@@ -1,0 +1,19 @@
+* {
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+.ReviewListItem {
+    display: flex;
+    padding: 10px;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100vw;
+}
+
+.ReviewListItem-img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+}
